@@ -21,6 +21,9 @@ An AI-powered chatbot that represents TutorBee, an interactive tutoring service.
 - 💡 **Record Feedback**: Logs unanswered questions for continuous improvement
 - 🎯 **Business-Grounded**: Only answers from actual business documentation
 
+### Deployed HuggingFace link: 
+https://huggingface.co/spaces/safaasalman/tutorbee-assistant
+
 ## How to Use
 
 1. Enter your OpenAI API key in the input field
@@ -63,3 +66,4 @@ This app is designed to run on HuggingFace Spaces. Simply:
 ## Note
 
 You'll need to provide your own OpenAI API key to use this chatbot.
+
