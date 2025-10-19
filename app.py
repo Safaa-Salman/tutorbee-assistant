@@ -385,9 +385,10 @@ with gr.Blocks(title="TutorBee Assistant", theme=gr.themes.Soft()) as demo:
         api_key_input = gr.Textbox(
             label="OpenAI API Key",
             placeholder="Enter your OpenAI API key (sk-...)",
-            type="password"
+            type="password",
+            scale=4
         )
-        init_btn = gr.Button("Initialize Agent", variant="primary")
+        init_btn = gr.Button("Initialize Agent", variant="primary", scale=1, size="sm")
     
     init_status = gr.Markdown("")
     
@@ -408,7 +409,8 @@ with gr.Blocks(title="TutorBee Assistant", theme=gr.themes.Soft()) as demo:
                 "I'm interested in signing up for math tutoring",
                 "What makes TutorBee different from other tutoring platforms?"
             ],
-            title="Chat with Alex from TutorBee"
+            title="Chat with Alex from TutorBee",
+            cache_examples=False
         )
     
     with gr.Tab("📊 Analytics"):
